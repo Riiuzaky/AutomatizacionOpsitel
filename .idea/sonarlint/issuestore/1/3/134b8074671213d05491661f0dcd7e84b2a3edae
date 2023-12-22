@@ -1,0 +1,25 @@
+
+g	java:S112D"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¸úÍ÷È1
+~
+java:S1488~"aImmediately return this expression instead of assigning it to the temporary variable "subcadena".(êÉâ¦8»úÍ÷È1
+l
+java:S2095a"JUse try-with-resources or close this "XSSFWorkbook" in a "finally" clause.(âÑãöøÿÿÿÿ8ÌúÍ÷È1
+o
+java:S2095`"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(¶ÈÖëşÿÿÿÿ8ÌúÍ÷È1
+g
+java:S2095P"JUse try-with-resources or close this "XSSFWorkbook" in a "finally" clause.(¸™á…8ÌúÍ÷È1
+y
+java:S1450 "WRemove the "operador" field and declare it as a local variable in the relevant methods.(ø§ŒÖøÿÿÿÿ8ÍúÍ÷È1
+z
+java:S1450!"]Remove the "totalRegistros" field and declare it as a local variable in the relevant methods.(Ã¿±8ÍúÍ÷È1
+]
+java:S1075K"ARefactor your code to get this URI from a customizable parameter.(ö¿€58ÑúÍ÷È1
+[
+java:S1128	">Remove this unused import 'org.apache.poi.ss.usermodel.Sheet'.(·è£8ŞúÍ÷È1
+c
+java:S1128
+"ARemove this unused import 'org.apache.poi.ss.usermodel.Workbook'.(°ûâìÿÿÿÿÿ8ŞúÍ÷È1
+J
+java:S1128"(Remove this unused import 'javax.swing'.(Ìí¿Üüÿÿÿÿ8ŞúÍ÷È1
+e
+java:S1128"CRemove this unused import 'javax.swing.filechooser.FileSystemView'.(ª„Ïıÿÿÿÿ8ŞúÍ÷È1
