@@ -40,6 +40,7 @@ public class ExtraerOperador implements Task {
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
                 Scroll.to(NumeroDocumento),
+                //Click.on(listaDeOpcionesDocumento),
                 Hit.the(Keys.ENTER).into(listaDeOpcionesDocumento),
                 Click.on(opcionRUC),
                 Enter.theValue(this.documento).into(NumeroDocumento),
@@ -72,7 +73,7 @@ public class ExtraerOperador implements Task {
 
     public void crearDocumento(String documento, String operador, String registros) throws IOException {
 
-        String filePath = "C:/Users/Riiuzaky/Documents/Automatizaciones/Opsitel/src/test/resources/archivos/archivo.xlsx";
+        String filePath = "C:/Users/Riiuzaky/Documents/Automatizaciones/Automatizaciones Web/Opsitel/src/test/resources/archivos/archivo.xlsx";
 
         // Crea el archivo si no existe
         File file = new File(filePath);
