@@ -73,9 +73,12 @@ public class ExtraerOperador implements Task {
 
     public void crearDocumento(String documento, String operador, String registros) throws IOException {
 
-        String filePath = "C:/Users/Riiuzaky/Documents/Automatizaciones/Automatizaciones Web/Opsitel/src/test/resources/archivos/archivo.xlsx";
+        //String filePath = "C:/Users/Riiuzaky/Documents/Automatizaciones/Automatizaciones Web/Opsitel/src/test/resources/archivos/archivo.xlsx";
 
         // Crea el archivo si no existe
+        
+        //File file = new File(filePath);
+        String filePath = "src/test/resources/archivos/archivo.xlsx";
         File file = new File(filePath);
         if (!file.exists()) {
             XSSFWorkbook workbook = new XSSFWorkbook();
